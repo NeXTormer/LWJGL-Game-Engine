@@ -1,0 +1,4 @@
+code cleanup:
+- more/bigger terrains
+- better terrain collision
+water effects
