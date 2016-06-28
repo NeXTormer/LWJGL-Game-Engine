@@ -56,6 +56,7 @@ public class Main {
 
 
     public Main() {
+
         DisplayManager.createDisplay();
 
         entities = new ArrayList<>();
