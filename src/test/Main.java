@@ -34,6 +34,28 @@ import java.util.Random;
 
 public class Main {
 
+
+
+    /*
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+    PETER RENDL
+
+
+
+
+
+     */
+
     Loader loader;
     GuiRenderer guiRenderer;
     MasterRenderer renderer;
