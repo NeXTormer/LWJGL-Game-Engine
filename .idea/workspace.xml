@@ -2,43 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b24f8e-0600-4275-b743-8af5f8bafb51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Camera.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Camera.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/DisplayManager.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/DisplayManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Entity.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/EntityAdder.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/EntityAdder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/EntityRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/EntityRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GUITexture.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GUITexture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Light.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Light.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/Loader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/Loader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/Main.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/MasterRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/MasterRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Maths.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Maths.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/ModelData.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/ModelData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/ModelTexture.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/ModelTexture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/MousePicker.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/MousePicker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/OBJFileLoader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/OBJFileLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Player.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/RawModel.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/RawModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/ShaderProgram.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/ShaderProgram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/SimpleTerrain.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/SimpleTerrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/StaticShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/StaticShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/terrains/Terrain.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/terrains/Terrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/TerrainRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/TerrainRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/TerrainShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/TerrainShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexture.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexturePack.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexturePack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TextureData.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TextureData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/TexturedModel.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/TexturedModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Tools.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Tools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/Vertex.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/Vertex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterFrameBuffers.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterFrameBuffers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterTile.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterTile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/OpenAL64.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jars/PNGDecoder.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/jinput-dx8.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/jinput-dx8_64.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/jinput-raw.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/jinput-raw_64.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/libjinput-linux.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/libjinput-linux64.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/liblwjgl.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/liblwjgl64.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/libopenal.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/libopenal64.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jars/lwjgl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natives/lwjgl64.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jars/lwjgl_util.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jars/slick-util.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LWJGL Game Engine.userlibraries" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LWJGL Game Engine.iws" />
@@ -523,7 +504,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467098677573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update 2">
+      <created>1467110389865</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467110389865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -539,16 +526,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984038" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23563892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39952153" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -569,7 +556,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cleanup for INTELLIJ&#10;" />
     <MESSAGE value="Cleanup for ECLIPSE&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup for ECLIPSE&#10;" />
+    <MESSAGE value="update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
