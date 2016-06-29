@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true" jdk="1.7" jdk_type="JavaSDK">
+<component LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true" inheritJdk="true">
 	<output-test url="file://$MODULE_DIR$/out/test/LWJGL Game Engine"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
