@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b24f8e-0600-4275-b743-8af5f8bafb51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Camera.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Camera.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Player.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/OBJFileLoader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/OBJFileLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/Vertex.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/Vertex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/DisplayManager.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/DisplayManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/EntityRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/EntityRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/Loader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/Loader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/MasterRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/MasterRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/TerrainRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/TerrainRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/ShaderProgram.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/ShaderProgram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/StaticShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/StaticShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/TerrainShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/TerrainShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/terrains/Terrain.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/terrains/Terrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/Main.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/SimpleTerrain.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/SimpleTerrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/MousePicker.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/MousePicker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Tools.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Tools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterFrameBuffers.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterFrameBuffers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterRenderer.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterShader.class" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Felix.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Felix.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LWJGL Game Engine.eml" afterPath="$PROJECT_DIR$/LWJGL Game Engine.eml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="$PROJECT_DIR$/src/test/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLTEST.html" afterPath="$PROJECT_DIR$/src/HTMLTEST.html" />
     </list>
     <ignored path="LWJGL Game Engine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +39,8 @@
       <file leaf-file-name="HTMLTEST.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HTMLTEST.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -843,7 +816,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463940486894</updated>
-      <workItem from="1467185026581" duration="824000" />
+      <workItem from="1467185026581" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup for INTELLIJ&#10;">
       <created>1467097619028</created>
@@ -877,7 +850,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="824000" />
+    <option name="totallyTimeSpent" value="949000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -890,7 +863,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -901,7 +874,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24216868" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1359,8 +1332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTMLTEST.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
