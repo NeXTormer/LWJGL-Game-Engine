@@ -1,106 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9b24f8e-0600-4275-b743-8af5f8bafb51" name="Default" comment="added peter messages">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine/toolbox/FrameBufferObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/portals/Portal.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Camera.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Entity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Light.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/entities/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GUITexture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/GuiShader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/guiFragmentShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/guis/guiVertexShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/ModelTexture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/models/TexturedModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/ModelData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/OBJFileLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/objConverter/Vertex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/DisplayManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/EntityRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/Loader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/MasterRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/RawModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/renderEngine/TerrainRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/ShaderProgram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/StaticShader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/TerrainShader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/fragmentShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/terrainFragmentShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/terrainVertexShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/shaders/vertexShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/SkyboxShader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/skyboxFragmentShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/skybox/skyboxVertexShader.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/terrains/Terrain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/test/SimpleTerrain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TerrainTexturePack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/textures/TextureData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/EntityAdder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Maths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/MousePicker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/toolbox/Tools.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterFrameBuffers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterShader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/WaterTile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/waterFragment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/water/waterVertex.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/entities/Camera.java" afterPath="$PROJECT_DIR$/src/engine/entities/Camera.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/entities/Entity.java" afterPath="$PROJECT_DIR$/src/engine/entities/Entity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/entities/Light.java" afterPath="$PROJECT_DIR$/src/engine/entities/Light.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/entities/Player.java" afterPath="$PROJECT_DIR$/src/engine/entities/Player.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/guis/GUITexture.java" afterPath="$PROJECT_DIR$/src/engine/guis/GUITexture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/guis/GuiRenderer.java" afterPath="$PROJECT_DIR$/src/engine/guis/GuiRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/guis/GuiShader.java" afterPath="$PROJECT_DIR$/src/engine/guis/GuiShader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/guis/guiFragmentShader.txt" afterPath="$PROJECT_DIR$/src/engine/guis/guiFragmentShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/guis/guiVertexShader.txt" afterPath="$PROJECT_DIR$/src/engine/guis/guiVertexShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/models/ModelTexture.java" afterPath="$PROJECT_DIR$/src/engine/models/ModelTexture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/models/TexturedModel.java" afterPath="$PROJECT_DIR$/src/engine/models/TexturedModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/objConverter/ModelData.java" afterPath="$PROJECT_DIR$/src/engine/objConverter/ModelData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/objConverter/OBJFileLoader.java" afterPath="$PROJECT_DIR$/src/engine/objConverter/OBJFileLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/objConverter/Vertex.java" afterPath="$PROJECT_DIR$/src/engine/objConverter/Vertex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/DisplayManager.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/DisplayManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/EntityRenderer.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/EntityRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/Loader.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/Loader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/MasterRenderer.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/MasterRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/RawModel.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/RawModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/renderEngine/TerrainRenderer.java" afterPath="$PROJECT_DIR$/src/engine/renderEngine/TerrainRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/ShaderProgram.java" afterPath="$PROJECT_DIR$/src/engine/shaders/ShaderProgram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/StaticShader.java" afterPath="$PROJECT_DIR$/src/engine/shaders/StaticShader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/TerrainShader.java" afterPath="$PROJECT_DIR$/src/engine/shaders/TerrainShader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/fragmentShader.txt" afterPath="$PROJECT_DIR$/src/engine/shaders/fragmentShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/terrainFragmentShader.txt" afterPath="$PROJECT_DIR$/src/engine/shaders/terrainFragmentShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/terrainVertexShader.txt" afterPath="$PROJECT_DIR$/src/engine/shaders/terrainVertexShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shaders/vertexShader.txt" afterPath="$PROJECT_DIR$/src/engine/shaders/vertexShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/skybox/SkyboxRenderer.java" afterPath="$PROJECT_DIR$/src/engine/skybox/SkyboxRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/skybox/SkyboxShader.java" afterPath="$PROJECT_DIR$/src/engine/skybox/SkyboxShader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/skybox/skyboxFragmentShader.txt" afterPath="$PROJECT_DIR$/src/engine/skybox/skyboxFragmentShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/skybox/skyboxVertexShader.txt" afterPath="$PROJECT_DIR$/src/engine/skybox/skyboxVertexShader.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/terrains/Terrain.java" afterPath="$PROJECT_DIR$/src/engine/terrains/Terrain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="$PROJECT_DIR$/src/game/test/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/SimpleTerrain.java" afterPath="$PROJECT_DIR$/src/game/test/SimpleTerrain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/textures/TerrainTexture.java" afterPath="$PROJECT_DIR$/src/engine/textures/TerrainTexture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/textures/TerrainTexturePack.java" afterPath="$PROJECT_DIR$/src/engine/textures/TerrainTexturePack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/textures/TextureData.java" afterPath="$PROJECT_DIR$/src/engine/textures/TextureData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/toolbox/EntityAdder.java" afterPath="$PROJECT_DIR$/src/engine/toolbox/EntityAdder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/toolbox/Maths.java" afterPath="$PROJECT_DIR$/src/engine/toolbox/Maths.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/toolbox/MousePicker.java" afterPath="$PROJECT_DIR$/src/engine/toolbox/MousePicker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/toolbox/Tools.java" afterPath="$PROJECT_DIR$/src/engine/toolbox/Tools.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/WaterFrameBuffers.java" afterPath="$PROJECT_DIR$/src/engine/water/WaterFrameBuffers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/WaterRenderer.java" afterPath="$PROJECT_DIR$/src/engine/water/WaterRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/WaterShader.java" afterPath="$PROJECT_DIR$/src/engine/water/WaterShader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/WaterTile.java" afterPath="$PROJECT_DIR$/src/engine/water/WaterTile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/waterFragment.txt" afterPath="$PROJECT_DIR$/src/engine/water/waterFragment.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/water/waterVertex.txt" afterPath="$PROJECT_DIR$/src/engine/water/waterVertex.txt" />
+    <list default="true" id="d9b24f8e-0600-4275-b743-8af5f8bafb51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LWJGL Game Engine/todo.txt" afterPath="$PROJECT_DIR$/out/production/LWJGL Game Engine/todo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todo.txt" afterPath="$PROJECT_DIR$/src/todo.txt" />
     </list>
     <ignored path="LWJGL Game Engine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -253,6 +155,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="portals" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -1018,7 +923,7 @@
       <option name="presentableId" value="Default" />
       <updated>1463940486894</updated>
       <workItem from="1467185026581" duration="1004000" />
-      <workItem from="1467194175208" duration="3560000" />
+      <workItem from="1467194175208" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup for INTELLIJ&#10;">
       <created>1467097619028</created>
@@ -1062,11 +967,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467194297846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first try on portals">
+      <created>1467202464785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467202464785</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4564000" />
+    <option name="totallyTimeSpent" value="4690000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1125,7 +1037,8 @@
     <MESSAGE value="Cleanup for ECLIPSE&#10;" />
     <MESSAGE value="update 2" />
     <MESSAGE value="added peter messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added peter messages" />
+    <MESSAGE value="first try on portals" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try on portals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1294,6 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
