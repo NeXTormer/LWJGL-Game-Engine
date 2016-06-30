@@ -4,6 +4,7 @@ import entities.Camera;
 import entities.Entity;
 import entities.Light;
 import models.TexturedModel;
+import normalMappingRenderer.NormalMappingRenderer;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.GL11;
@@ -35,15 +36,20 @@ public class MasterRenderer {
     public static final float NEAR_PLANE = 0.1f;
     public static final float FAR_PLANE = 2000;
 
-    private static final float RED = 0.5f;
-    private static final float GREEN = 0.5f;
-    private static final float BLUE = 0.5f;
+    public static final float RED = 0.5f;
+    public static final float GREEN = 0.5f;
+    public static final float BLUE = 0.5f;
 
     private Matrix4f projectionMatrix;
+
+    private NormalMappingRenderer normalMapRenderer;
+
 
     private Light sun;
 
     private Map<TexturedModel, List<Entity>> entities = new HashMap<TexturedModel, List<Entity>>();
+    private Map<TexturedModel, List<Entity>> normalMapEntities = new HashMap<TexturedModel, List<Entity>>();
+
     private List<Terrain> terrains = new ArrayList<>();
 
     public MasterRenderer(Loader loader, Light sun) {
@@ -52,6 +58,7 @@ public class MasterRenderer {
         skyboxRenderer = new SkyboxRenderer(loader, sun, projectionMatrix);
         entityRenderer = new EntityRenderer(shader, projectionMatrix);
         terrainRenderer = new TerrainRenderer(terrainShader, projectionMatrix);
+        normalMapRenderer = new NormalMappingRenderer(projectionMatrix);
 
     }
 
@@ -68,12 +75,15 @@ public class MasterRenderer {
         GL11.glDisable(GL11.GL_CULL_FACE);
     }
 
-    public void renderScene(List<Entity> entities, List<Terrain> terrains, List<Light> lights, Camera camera, Vector4f clipPlane) {
+    public void renderScene(List<Entity> entities, List<Entity> normalMapEntities, List<Terrain> terrains, List<Light> lights, Camera camera, Vector4f clipPlane) {
         for(Terrain terrain : terrains) {
             processTerrain(terrain);
         }
         for(Entity entity : entities) {
             processEntity(entity);
+        }
+        for(Entity entity : normalMapEntities) {
+            processNormalMapEntity(entity);
         }
         render(lights, camera, clipPlane);
     }
@@ -91,6 +101,7 @@ public class MasterRenderer {
         shader.loadViewMatrix(camera);
         entityRenderer.render(entities);
         shader.stop();
+        normalMapRenderer.render(normalMapEntities, clipPlane, lights, camera);
         terrainShader.start();
         terrainShader.loadClippingPlane(clipPlane);
         terrainShader.loadSkyColor(RED, GREEN, BLUE);
@@ -141,9 +152,22 @@ public class MasterRenderer {
         }
     }
 
+    public void processNormalMapEntity(Entity entity) {
+        TexturedModel entityModel = entity.getModel();
+        List<Entity> batch = normalMapEntities.get(entityModel);
+        if(batch != null) {
+            batch.add(entity);
+        } else {
+            List<Entity> newBatch = new ArrayList<>();
+            newBatch.add(entity);
+            normalMapEntities.put(entityModel, newBatch);
+        }
+    }
+
 
     public void cleanUp() {
         terrainShader.cleanUp();
         shader.cleanUp();
+        normalMapRenderer.cleanUp();
     }
 }

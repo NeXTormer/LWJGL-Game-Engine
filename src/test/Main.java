@@ -8,6 +8,7 @@ import guis.GUITexture;
 import guis.GuiRenderer;
 import models.ModelTexture;
 import models.TexturedModel;
+import normalMappingObjConverter.NormalMappedObjLoader;
 import objConverter.ModelData;
 import objConverter.OBJFileLoader;
 import org.lwjgl.input.Mouse;
@@ -66,6 +67,7 @@ public class Main {
     WaterRenderer waterRenderer;
 
     List<Entity> entities;
+    List<Entity> normalMapEntities;
     List<Light> lights;
     List<Terrain> terrains;
     List<WaterTile> waterTiles;
@@ -81,6 +83,8 @@ public class Main {
         terrains = new ArrayList<>();
         waterTiles = new ArrayList<>();
         guiTextures = new ArrayList<>();
+        normalMapEntities = new ArrayList<>();
+
 
         /*
             Initialize Objects
@@ -124,6 +128,14 @@ public class Main {
         }
 
 
+        //Add normal-mapped barrel entity
+
+        ModelTexture barrelTexture = new ModelTexture(loader.loadTexture("barrel"));
+        barrelTexture.setReflectivity(0.5f);
+        barrelTexture.setShineDamper(10);
+        TexturedModel barrel = new TexturedModel(NormalMappedObjLoader.loadOBJ("barrel", loader), barrelTexture);
+        barrel.getTexture().setNormalMap(loader.loadTexture("barrelNormal"));
+        normalMapEntities.add(new Entity(barrel, new Vector3f(-300, 30, -300), 0, 0, 0, 1));
 
         WaterTile waterTile = new WaterTile(-200, -180, 0);
         waterTiles.add(waterTile);
@@ -146,21 +158,25 @@ public class Main {
             float distance = 2 * (camera.getPosition().y - waterTile.getHeight());
             camera.getPosition().y -= distance;
             camera.invertPitch();
-            renderer.renderScene(entities, terrains, lights, camera, new Vector4f(0, 1, 0, -waterTile.getHeight() + 0.4f));
+            renderer.renderScene(entities, normalMapEntities, terrains, lights, camera, new Vector4f(0, 1, 0, -waterTile.getHeight() + 0.4f));
             camera.getPosition().y += distance;
             camera.invertPitch();
 
             //Render Refraction Texture
             fbos.bindRefractionFrameBuffer();
-            renderer.renderScene(entities, terrains, lights, camera, new Vector4f(0, -1, 0, waterTile.getHeight()));
+            renderer.renderScene(entities, normalMapEntities, terrains, lights, camera, new Vector4f(0, -1, 0, waterTile.getHeight()));
 
             //Render to screen
             fbos.unbindCurrentFrameBuffer();
             GL11.glDisable(GL30.GL_CLIP_DISTANCE0);
-            renderer.renderScene(entities, terrains, lights, camera, new Vector4f(0, -1, 0, 10000));
+            renderer.renderScene(entities, normalMapEntities, terrains, lights, camera, new Vector4f(0, -1, 0, 10000));
             waterRenderer.render(waterTiles, camera, lights.get(0));
             tools.printLocation(player);
             //guiRenderer.render(guiTextures);
+
+
+
+
 
             DisplayManager.updateDisplay();
         }
