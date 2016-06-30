@@ -129,7 +129,7 @@ public class Main {
 
 
         //Portal FrameBuffer
-        RawModel grass;
+        RawModel grass; //might not have been initialized
 
         FrameBufferObject pfbo = new FrameBufferObject(400, 400);
         Entity portal = new Entity(grass, new Vector3f(100, 30, 100), 0, 0, 0, 3);
