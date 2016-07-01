@@ -1,4 +1,4 @@
 code cleanup:
-- more/bigger engine.terrains
+- more/bigger terrains
 - better terrain collision
-engine.water effects
+water effects
