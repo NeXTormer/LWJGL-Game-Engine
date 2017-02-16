@@ -1,4 +1,2 @@
-code cleanup:
 - more/bigger terrains
-- better terrain collision
-water effects
+- better performance in normalMapFShader.txt

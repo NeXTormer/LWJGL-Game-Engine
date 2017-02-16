@@ -8,20 +8,19 @@ import guis.GUITexture;
 import guis.GuiRenderer;
 import models.ModelTexture;
 import models.TexturedModel;
-import normalMappingObjConverter.NormalMappedObjLoader;
 import objConverter.ModelData;
 import objConverter.OBJFileLoader;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL30;
-import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
 import org.lwjgl.util.vector.Vector4f;
-import renderEngine.*;
+import renderEngine.DisplayManager;
+import renderEngine.Loader;
+import renderEngine.MasterRenderer;
+import renderEngine.RawModel;
 import terrains.Terrain;
-import textures.TerrainTexture;
-import textures.TerrainTexturePack;
 import toolbox.MousePicker;
 import toolbox.Tools;
 import water.WaterFrameBuffers;
@@ -34,23 +33,6 @@ import java.util.List;
 import java.util.Random;
 
 public class Main {
-
-
-
-    /*
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-    PETER RENDL
-     */
 
     Loader loader;
     GuiRenderer guiRenderer;
@@ -85,11 +67,6 @@ public class Main {
         guiTextures = new ArrayList<>();
         normalMapEntities = new ArrayList<>();
 
-
-        /*
-            Initialize Objects
-         */
-
         loader = new Loader();
         tools = new Tools();
         player = tools.createPlayer(loader, "person", "playerTexture", new Vector3f(-284.1552f, 5.624076f, -294.10355f), 0, 40, 0, 1);
@@ -108,10 +85,6 @@ public class Main {
 
         terrains.add(terrain);
 
-        /*
-            Add Fern model
-         */
-
         // Fern Model
         ModelData fernData = OBJFileLoader.loadOBJ(("fern"));
         RawModel fernModel = loader.loadToVAO(fernData.getVertices(), fernData.getTextureCoords(), fernData.getNormals(), fernData.getIndices());
@@ -127,32 +100,18 @@ public class Main {
             entities.add(new Entity(fernTexturedModel, random.nextInt(4), new Vector3f(randx, terrain.getHeightOfTerrain(randx, randz), randz),0,0,0,1));
         }
 
-
-        //Add normal-mapped barrel entity
-
-        ModelTexture barrelTexture = new ModelTexture(loader.loadTexture("barrel"));
-        barrelTexture.setReflectivity(0.5f);
-        barrelTexture.setShineDamper(10);
-        TexturedModel barrel = new TexturedModel(NormalMappedObjLoader.loadOBJ("barrel", loader), barrelTexture);
-        barrel.getTexture().setNormalMap(loader.loadTexture("barrelNormal"));
-        normalMapEntities.add(new Entity(barrel, new Vector3f(-300, 30, -300), 0, 0, 0, 1));
-
+        //Water
         WaterTile waterTile = new WaterTile(-200, -180, 0);
         waterTiles.add(waterTile);
 
-
-        /*
-            GameLoop
-         */
         while (!Display.isCloseRequested()) {
             camera.move();
             player.move(terrain);
 
             mousePicker();
-
-
-
             GL11.glEnable(GL30.GL_CLIP_DISTANCE0);
+
+
             //Render Reflection Texture
             fbos.bindReflectionFrameBuffer();
             float distance = 2 * (camera.getPosition().y - waterTile.getHeight());
@@ -173,10 +132,6 @@ public class Main {
             waterRenderer.render(waterTiles, camera, lights.get(0));
             tools.printLocation(player);
             //guiRenderer.render(guiTextures);
-
-
-
-
 
             DisplayManager.updateDisplay();
         }
