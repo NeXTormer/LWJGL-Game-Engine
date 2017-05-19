@@ -45,6 +45,9 @@ public class Main {
     Random random;
     Terrain terrain;
 
+    Entity expoint;
+
+
     WaterShader waterShader;
     WaterRenderer waterRenderer;
 
@@ -104,12 +107,16 @@ public class Main {
         WaterTile waterTile = new WaterTile(-200, -180, 0);
         waterTiles.add(waterTile);
 
+
+
+
         while (!Display.isCloseRequested()) {
+            renderer.disableCulling();
             camera.move();
             player.move(terrain);
 
             mousePicker();
-            GL11.glEnable(GL30.GL_CLIP_DISTANCE0);
+            //GL11.glEnable(GL30.GL_CLIP_DISTANCE0);
 
 
             //Render Reflection Texture
@@ -158,7 +165,7 @@ public class Main {
             picker.update();
             Vector3f pos = picker.getCurrentTerrainPoint();
             if (pos != null) {
-                entities.add(tools.createTree(loader, pos));
+                entities.add(tools.createFragezeichen(loader, pos));
             }
         }
     }

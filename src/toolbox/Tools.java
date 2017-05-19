@@ -62,5 +62,17 @@ public class Tools {
         return new Entity(treeTexturedModel, pos, 0, 0, 0, 3);
     }
 
+    public Entity createFragezeichen(Loader loader, Vector3f pos) {
+        ModelData treeData = OBJFileLoader.loadOBJ(("fragezeichen"));
+        RawModel treeModel = loader.loadToVAO(treeData.getVertices(), treeData.getTextureCoords(), treeData.getNormals(), treeData.getIndices());
+
+        ModelTexture treeModelTexture = new ModelTexture(loader.loadTexture("white"));
+        treeModelTexture.setShineDamper(10);
+        treeModelTexture.setReflectivity(1);
+        TexturedModel treeTexturedModel = new TexturedModel(treeModel, treeModelTexture);
+
+        return new Entity(treeTexturedModel, pos, 0, 0, 0, 2);
+    }
+
 
 }
